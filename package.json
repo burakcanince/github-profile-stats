@@ -1,0 +1,35 @@
+{
+  "name": "github-profile-stats",
+  "version": "1.0.1",
+  "description": "GitHub profile and repository stats in your terminal",
+  "main": "dist/github-stats.js",
+  "bin": {
+    "github-profile-stats": "dist/github-stats.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "prepack": "tsc"
+  },
+  "engines": {
+    "node": ">=18.3.0"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "profile",
+    "report",
+    "stats",
+    "repository",
+    "github-stats"
+  ],
+  "author": "silentcoding",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^7.0.2"
+  }
+}
